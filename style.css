@@ -145,12 +145,12 @@ a {
   background-color: var(--clr-green);
 }
 
-.btn-link:hover a,
-.btn-link:focus a {
+.btn-link:hover,
+.btn-link:focus {
   color: var(--clr-grey);
 }
 
-.btn-link a {
+.btn-link {
   text-decoration: none;
   font-weight: var(--fw-bold);
   color: var(--clr-white);
