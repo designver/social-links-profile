@@ -134,12 +134,17 @@ a {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-link:hover,
 .btn-link:focus {
   background-color: var(--clr-green);
 }
+
 .btn-link:hover a,
 .btn-link:focus a {
   color: var(--clr-grey);
